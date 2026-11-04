@@ -19,6 +19,29 @@ deployments that have keys.
 
 This platform is part of the portfolio built and measured on camera at **[The Architect's AI Workshop](https://www.youtube.com/@ArchitectsAIWorkshop)** — *first principles on the whiteboard, built live in the editor, measured honestly.* Browse the episodes: [youtube.com/@ArchitectsAIWorkshop/videos](https://www.youtube.com/@ArchitectsAIWorkshop/videos)
 
+## Install the starter skills
+
+The 20 starter skills in `library/` are standard `SKILL.md` packages
+and install into any supported coding agent (Claude Code, Codex,
+Cursor, GitHub Copilot, and 75+ others) with the
+[skills](https://skills.sh) CLI:
+
+```bash
+npx skills add ranadhir19/skillforge
+```
+
+Pick skills and target agents interactively, or pin them up front:
+
+```bash
+npx skills add ranadhir19/skillforge --skill code-review --agent claude-code
+npx skills add ranadhir19/skillforge --global    # available in every project
+```
+
+Discovery is declared in `skills.sh.json` at the repo root, which
+points the CLI at the `library/` container directory. Each package
+installs as authored: `SKILL.md`, manifest, evals, and any scripts
+or assets it ships.
+
 ## Quickstart
 
 ```bash

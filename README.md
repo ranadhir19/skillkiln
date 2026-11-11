@@ -1,4 +1,4 @@
-# SkillForge
+# skillkiln
 
 **A model-agnostic, self-learning skill platform.** Skills are
 portable packages — a standard `SKILL.md` plus a manifest that adds
@@ -27,14 +27,14 @@ Cursor, GitHub Copilot, and 75+ others) with the
 [skills](https://skills.sh) CLI:
 
 ```bash
-npx skills add ranadhir19/skillforge
+npx skills add ranadhir19/skillkiln
 ```
 
 Pick skills and target agents interactively, or pin them up front:
 
 ```bash
-npx skills add ranadhir19/skillforge --skill code-review --agent claude-code
-npx skills add ranadhir19/skillforge --global    # available in every project
+npx skills add ranadhir19/skillkiln --skill code-review --agent claude-code
+npx skills add ranadhir19/skillkiln --global    # available in every project
 ```
 
 Discovery is declared in `skills.sh.json` at the repo root, which

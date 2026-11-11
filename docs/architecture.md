@@ -1,6 +1,6 @@
-# SkillForge architecture
+# skillkiln architecture
 
-SkillForge is a model-agnostic, self-learning **skill platform**. It
+skillkiln is a model-agnostic, self-learning **skill platform**. It
 generalises the Agent Skills idea (a folder with a `SKILL.md`) beyond
 any single vendor's runtime: skills are portable packages with
 *enforced* permissions, *tested* triggers, capability requirements
